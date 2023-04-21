@@ -1,7 +1,7 @@
 mkdir helloindia
 cd helloindia
 
-Docker build -t gcr.io/amsproject/helloindia:v1 . 
+docker build -t gcr.io/amsproject/helloindia:v1 . 
 
-Docker push gcr.io/amsproject/helloindia:v
+docker push gcr.io/amsproject/helloindia:v1
 
