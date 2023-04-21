@@ -1,0 +1,7 @@
+mkdir helloindia
+cd helloindia
+
+Docker build -t gcr.io/amsproject/helloindia:v1 . 
+
+Docker push gcr.io/amsproject/helloindia:v
+
